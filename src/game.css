@@ -1,0 +1,73 @@
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #999;
+}
+
+#game-canvas {
+    margin: auto;
+    max-width: 500px;
+    min-width: 320px;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#game-over, #game-over-overlay {
+    margin: auto;
+    max-width: 500px;
+    min-width: 320px;
+    min-height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+
+#game-score {
+    margin: auto;
+    max-width: 500px;
+    min-width: 320px;
+    height: 100px;
+    position: absolute;
+    top: 100;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: left;
+    color: white;
+    font-size: 36px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#game-over-overlay {
+    background-color: black;
+    opacity: .5;
+}
+
+#game-over {
+    height: 300px;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+#game-over div {
+    font-size: 3em;
+}
+
+#game-over button {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
